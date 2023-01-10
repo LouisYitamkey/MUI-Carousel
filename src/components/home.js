@@ -48,7 +48,7 @@ const images = [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/46/24/03/aburi-botanical-gardens.jpg?w=1200&h=-1&s=1',
   },
   {
-    label: 'Labadi, Beach',
+    label: 'Labadi Beach',
     imgPath:
       'https://cf.bstatic.com/xdata/images/hotel/max1280x900/74249118.jpg?k=ed214653b92b6aeede1e7d8ede6947b8086d458389e126dd045ddef65d1497c6&o=&hp=1',
   },
@@ -86,7 +86,7 @@ function SwipeableTextMobileStepper() {
           bgcolor: 'background.default',
         }}
       >
-        <Typography className='text-blue-500 text-center font-bold'>{images[activeStep].label}</Typography>
+        <Typography className='text-blue-500 text-xl font-bold'>{images[activeStep].label}</Typography>
       </Paper>
       <AutoPlaySwipeableViews
         axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
